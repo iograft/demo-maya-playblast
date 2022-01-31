@@ -1,0 +1,17 @@
+# iograft Maya Playblast Demo
+
+This repository provides a demo graph and selection of nodes for iograft that given an FBX asset file and a directory of FBX animation files, generates playblasts for each of the animations applied to the asset.
+
+FBX assets and FBX animations included in this repository are from Adobe Mixamo.
+
+## Running the Demo
+
+Below are the steps to run the demo:
+
+- Configure a Maya environment for iograft (Based on instructions in the iograft-maya repository).
+- Launch Maya and start iograft and the iograft UI.
+- Open the `demo-maya-playblast.iog` file from this repository.
+- Set the "demo_directory" input value to point to the cloned demo repository.
+- Process the graph!
+
+_Note: In order to run the demo with `iograft_execute` from the commandline without launching Maya, you will first need to open the graph in Maya with the UI, and manually set the graph's environment to your Maya environment._
