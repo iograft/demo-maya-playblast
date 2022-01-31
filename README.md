@@ -4,6 +4,10 @@ This repository provides a demo graph and selection of nodes for iograft that gi
 
 FBX assets and FBX animations included in this repository are from Adobe Mixamo.
 
+Some of the iograft features that this graph includes are:
+- Graph Inputs to pass data into a subgraph
+- Loop Node
+
 ## Running the Demo
 
 Below are the steps to run the demo:
