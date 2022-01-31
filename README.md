@@ -25,4 +25,4 @@ Below are the steps to run the demo:
 
 - Process the graph! Generated playblast videos will be output to the "anim/playblasts" directory of this repository.
 
-_Note: In order to run the demo with `iograft_execute` from the commandline without launching Maya, you will first need to open the graph in Maya with the UI, and manually set the graph's environment to your Maya environment._
+_Note: In order to run the demo with `iograft_execute` or `iograft_ui` from the commandline without launching Maya, you will first need to open the graph in Maya with the UI, and manually set the graph's environment to your Maya environment._
