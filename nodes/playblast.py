@@ -46,11 +46,11 @@ class Playblast(iograft.Node):
             "filename": output_file,
             "percent": 50,
             "clearCache": True,
+            "format": "movie",
             "width": 1280,
             "height": 720,
             "offScreen": True,
             "viewer": False,
-            "compression": "none",
             "forceOverwrite": True
         }
         output = maya.cmds.playblast(**playblast_args)
