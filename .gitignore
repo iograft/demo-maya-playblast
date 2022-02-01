@@ -1,2 +1,4 @@
 # Ignore the generated anim playblast directory.
 anim/playblast/
+*.pyc
+.DS_Store
