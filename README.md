@@ -13,7 +13,7 @@ Some of the iograft features that this graph includes are:
 Below are the steps to run the demo:
 
 - Configure a Maya environment for iograft based on instructions in the iograft-maya repository (i.e. maya2020).
-- Launch Maya and start iograft and the iograft UI.
+- Launch Maya with `iograft_env` or a configured `userSetup.py`, load the iograft plugin and start the iograft UI.
 - Add the "nodes" directory from this repository to the "maya2020" environment's Plugin Path.
 ![Updating the maya environment Plugin path](images/environment_manager.png)
 
