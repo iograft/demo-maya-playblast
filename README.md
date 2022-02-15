@@ -17,7 +17,7 @@ Below are the steps to run the demo:
 - Add the "nodes" directory from this repository to the "maya2020" environment's Plugin Path.
 ![Updating the maya environment Plugin path](images/environment_manager.png)
 
-- From the command line, run the [iograft_graph_updater](https://docs.iograft.com/getting-started/iograft-commands#iograft_graph_updater) utility to set the environment of the demo graph to your maya environment:
+- From the command line, run the [iograft_graph_updater](https://docs.iograft.com/getting-started/iograft-commands#iograft_graph_updater) utility to set the environment of the demo graph from this repository to your maya environment:
 ```
 iograft_graph_updater --set-environment maya2020 demo-maya-playblast.iog
 ```
