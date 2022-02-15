@@ -13,9 +13,16 @@ Some of the iograft features that this graph includes are:
 Below are the steps to run the demo:
 
 - Configure a Maya environment for iograft based on instructions in the iograft-maya repository (i.e. maya2020).
-- Launch Maya with [iograft_env](https://github.com/iograft/iograft-maya#iograft_env) or a configured [userSetup.py](https://github.com/iograft/iograft-maya#usersetuppy), load the iograft plugin and start the iograft UI.
+
 - Add the "nodes" directory from this repository to the "maya2020" environment's Plugin Path.
 ![Updating the maya environment Plugin path](images/environment_manager.png)
+
+- From the command line, run the [iograft_graph_updater](https://docs.iograft.com/getting-started/iograft-commands#iograft_graph_updater) utility to set the environment of the demo graph to your maya environment:
+```
+iograft_graph_updater --set-environment maya2020 demo-maya-playblast.iog
+```
+
+- Launch Maya with [iograft_env](https://github.com/iograft/iograft-maya#iograft_env) or a configured [userSetup.py](https://github.com/iograft/iograft-maya#usersetuppy), load the iograft plugin and start the iograft UI.
 
 - Open the `demo-maya-playblast.iog` file from this repository.
 ![The loaded graph](images/loaded_graph.png)
@@ -25,4 +32,4 @@ Below are the steps to run the demo:
 
 - Process the graph! Generated playblast videos will be output to the "anim/playblasts" directory of this repository.
 
-_Note: In order to run the demo with `iograft_execute` or `iograft_ui` from the commandline without launching Maya, you will first need to open the graph in Maya with the UI, and manually set the graph's environment to your Maya environment._
+_Note: In order to run the demo with `iograft_execute` or `iograft_ui` from the commandline without launching Maya, you will first need to either set the graph's environment to your Maya environment with the `iograft_graph_updater` tool or open the graph in Maya with the UI, and manually set the graph's environment to your Maya environment._
