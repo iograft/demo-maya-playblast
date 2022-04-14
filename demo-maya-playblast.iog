@@ -428,9 +428,9 @@ This ensures that the asset is correctly framed prior to generating  the playbla
 										<members class_id="28" tracking_level="0" version="0">
 											<count>3</count>
 											<item_version>0</item_version>
-											<item>ed71777d-9310-4d61-b343-2bdab548bacd</item>
 											<item>1ea49bab-7324-46fb-82be-e70b9bad15d1</item>
 											<item>888c7b58-abb8-48a4-ba6f-0ebcd83456f6</item>
+											<item>ed71777d-9310-4d61-b343-2bdab548bacd</item>
 										</members>
 									</item>
 								</groups>
