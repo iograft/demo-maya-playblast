@@ -14,7 +14,7 @@ class ImportFBXAnimation(iograft.Node):
     the loaded scene.
     """
     # Path to an FBX animation file to apply.
-    anim_file = iograft.InputDefinition("anim_file", iobasictypes.String())
+    anim_file = iograft.InputDefinition("anim_file", iobasictypes.Path())
 
     # The name of the FBX animation.
     namespace = iograft.OutputDefinition("namespace", iobasictypes.String())

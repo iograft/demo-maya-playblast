@@ -12,13 +12,13 @@ class Playblast(iograft.Node):
     """
     Export a playblast movie.
     """
-    filename = iograft.InputDefinition("output_file", iobasictypes.String())
+    filename = iograft.InputDefinition("output_file", iobasictypes.Path())
     start_frame = iograft.InputDefinition("start_frame", iobasictypes.Int(),
                                           default_value=0)
     end_frame = iograft.InputDefinition("end_frame", iobasictypes.Int(),
                                         default_value=10)
 
-    output = iograft.OutputDefinition("output_file", iobasictypes.String())
+    output = iograft.OutputDefinition("output_file", iobasictypes.Path())
 
     @classmethod
     def GetDefinition(cls):
