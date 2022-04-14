@@ -1,32 +1,66 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <!DOCTYPE boost_serialization>
 <boost_serialization signature="serialization::archive" version="17">
-<iograft_identification>iograft v0.9.6</iograft_identification>
+<iograft_identification>iograft v1.0.0</iograft_identification>
 <contents class_id="0" tracking_level="0" version="0">
-	<graph class_id="1" tracking_level="1" version="0" object_id="_0">
-		<nodes class_id="7" tracking_level="0" version="0">
+	<graph class_id="1" tracking_level="1" version="1" object_id="_0">
+		<nodes class_id="10" tracking_level="0" version="0">
 			<count>10</count>
 			<item_version>1</item_version>
-			<item class_id="8" tracking_level="0" version="1">
+			<item class_id="11" tracking_level="0" version="1">
 				<px class_id="2" tracking_level="1" version="0" object_id="_1">
-					<NodeSerializationData class_id="9" tracking_level="0" version="1">
-						<node_id>3c10e04e-8493-4d59-bb6a-914ee7e3ba74</node_id>
-						<custom_name>list_directory1</custom_name>
-						<position class_id="10" tracking_level="0" version="0">
-							<first>-5.778668213e+02</first>
-							<second>-3.226046371e+01</second>
+					<NodeSerializationData class_id="12" tracking_level="0" version="1">
+						<node_id>0204b04d-8fb2-44f4-835b-28dce6b28792</node_id>
+						<custom_name>set_asset_path</custom_name>
+						<position class_id="13" tracking_level="0" version="0">
+							<first>-1.809071045e+02</first>
+							<second>-4.851492310e+02</second>
 						</position>
 					</NodeSerializationData>
-					<node_type_id class_id="11" tracking_level="0" version="0">
-						<type_name>list_directory</type_name>
+					<node_type_id class_id="14" tracking_level="0" version="0">
+						<type_name>join_path</type_name>
 						<node_namespace></node_namespace>
 						<developer_id>0</developer_id>
 					</node_type_id>
 				</px>
 			</item>
 			<item>
-				<px class_id="4" tracking_level="1" version="1" object_id="_2">
-					<SubgraphNodeSerializationData class_id="3" tracking_level="1" version="2" object_id="_3">
+				<px class_id_reference="2" object_id="_2">
+					<NodeSerializationData>
+						<node_id>08a7a19e-5090-45a5-bb7d-697e54a79f9f</node_id>
+						<custom_name>filter_files1</custom_name>
+						<position>
+							<first>-2.916553345e+02</first>
+							<second>-5.097235489e+01</second>
+						</position>
+					</NodeSerializationData>
+					<node_type_id>
+						<type_name>filter_files</type_name>
+						<node_namespace></node_namespace>
+						<developer_id>0</developer_id>
+					</node_type_id>
+				</px>
+			</item>
+			<item>
+				<px class_id_reference="2" object_id="_3">
+					<NodeSerializationData>
+						<node_id>199b3e9e-bb01-4aab-ba18-faf069e0f339</node_id>
+						<custom_name>create_directory1</custom_name>
+						<position>
+							<first>-2.665894775e+02</first>
+							<second>3.418260803e+02</second>
+						</position>
+					</NodeSerializationData>
+					<node_type_id>
+						<type_name>create_directory</type_name>
+						<node_namespace></node_namespace>
+						<developer_id>0</developer_id>
+					</node_type_id>
+				</px>
+			</item>
+			<item>
+				<px class_id="4" tracking_level="1" version="1" object_id="_4">
+					<SubgraphNodeSerializationData class_id="3" tracking_level="1" version="2" object_id="_5">
 						<NodeSerializationData>
 							<node_id>1aa5dac9-3c93-4ce7-9b45-a378286838cc</node_id>
 							<custom_name>playblast_anim</custom_name>
@@ -36,45 +70,11 @@
 							</position>
 						</NodeSerializationData>
 						<is_reference>0</is_reference>
-						<subgraph class_id="12" tracking_level="0" version="1">
-							<px class_id_reference="1" object_id="_4">
+						<subgraph class_id="15" tracking_level="0" version="1">
+							<px class_id_reference="1" object_id="_6">
 								<nodes>
 									<count>12</count>
 									<item_version>1</item_version>
-									<item>
-										<px class_id_reference="2" object_id="_5">
-											<NodeSerializationData>
-												<node_id>4c38d223-e830-481f-8dd8-15ca7f79ae2f</node_id>
-												<custom_name>new_scene_maya1</custom_name>
-												<position>
-													<first>-1.621881256e+02</first>
-													<second>-3.578910828e+02</second>
-												</position>
-											</NodeSerializationData>
-											<node_type_id>
-												<type_name>new_scene_maya</type_name>
-												<node_namespace></node_namespace>
-												<developer_id>0</developer_id>
-											</node_type_id>
-										</px>
-									</item>
-									<item>
-										<px class_id_reference="2" object_id="_6">
-											<NodeSerializationData>
-												<node_id>9e883347-0802-41cb-8cc4-6c68d8ae21d0</node_id>
-												<custom_name>import_fbx_anim1</custom_name>
-												<position>
-													<first>-1.705005798e+02</first>
-													<second>2.079742737e+02</second>
-												</position>
-											</NodeSerializationData>
-											<node_type_id>
-												<type_name>import_fbx_anim</type_name>
-												<node_namespace></node_namespace>
-												<developer_id>0</developer_id>
-											</node_type_id>
-										</px>
-									</item>
 									<item>
 										<px class_id_reference="2" object_id="_7">
 											<NodeSerializationData>
@@ -95,23 +95,6 @@
 									<item>
 										<px class_id_reference="2" object_id="_8">
 											<NodeSerializationData>
-												<node_id>dc05fb22-49e1-4ea5-8508-6ec110e25ff7</node_id>
-												<custom_name>playblast_maya1</custom_name>
-												<position>
-													<first>9.541019287e+02</first>
-													<second>6.709555054e+02</second>
-												</position>
-											</NodeSerializationData>
-											<node_type_id>
-												<type_name>playblast_maya</type_name>
-												<node_namespace></node_namespace>
-												<developer_id>0</developer_id>
-											</node_type_id>
-										</px>
-									</item>
-									<item>
-										<px class_id_reference="2" object_id="_9">
-											<NodeSerializationData>
 												<node_id>1ea49bab-7324-46fb-82be-e70b9bad15d1</node_id>
 												<custom_name>join_path1</custom_name>
 												<position>
@@ -127,24 +110,24 @@
 										</px>
 									</item>
 									<item>
-										<px class_id_reference="2" object_id="_10">
+										<px class_id_reference="2" object_id="_9">
 											<NodeSerializationData>
-												<node_id>888c7b58-abb8-48a4-ba6f-0ebcd83456f6</node_id>
-												<custom_name>add_movie_extension</custom_name>
+												<node_id>4c38d223-e830-481f-8dd8-15ca7f79ae2f</node_id>
+												<custom_name>new_scene_maya1</custom_name>
 												<position>
-													<first>3.245174255e+02</first>
-													<second>1.442205505e+02</second>
+													<first>-1.621881256e+02</first>
+													<second>-3.578910828e+02</second>
 												</position>
 											</NodeSerializationData>
 											<node_type_id>
-												<type_name>concatenate_strings</type_name>
+												<type_name>new_scene_maya</type_name>
 												<node_namespace></node_namespace>
 												<developer_id>0</developer_id>
 											</node_type_id>
 										</px>
 									</item>
 									<item>
-										<px class_id_reference="2" object_id="_11">
+										<px class_id_reference="2" object_id="_10">
 											<NodeSerializationData>
 												<node_id>5ce33254-de92-408e-ab66-4c28abd02f0d</node_id>
 												<custom_name>fit_to_view1</custom_name>
@@ -161,7 +144,58 @@
 										</px>
 									</item>
 									<item>
+										<px class_id_reference="2" object_id="_11">
+											<NodeSerializationData>
+												<node_id>888c7b58-abb8-48a4-ba6f-0ebcd83456f6</node_id>
+												<custom_name>add_movie_extension</custom_name>
+												<position>
+													<first>3.245174255e+02</first>
+													<second>1.442205505e+02</second>
+												</position>
+											</NodeSerializationData>
+											<node_type_id>
+												<type_name>concatenate_strings</type_name>
+												<node_namespace></node_namespace>
+												<developer_id>0</developer_id>
+											</node_type_id>
+										</px>
+									</item>
+									<item>
 										<px class_id_reference="2" object_id="_12">
+											<NodeSerializationData>
+												<node_id>9e883347-0802-41cb-8cc4-6c68d8ae21d0</node_id>
+												<custom_name>import_fbx_anim1</custom_name>
+												<position>
+													<first>-1.705005798e+02</first>
+													<second>2.079742737e+02</second>
+												</position>
+											</NodeSerializationData>
+											<node_type_id>
+												<type_name>import_fbx_anim</type_name>
+												<node_namespace></node_namespace>
+												<developer_id>0</developer_id>
+											</node_type_id>
+										</px>
+									</item>
+									<item>
+										<px class_id_reference="2" object_id="_13">
+											<NodeSerializationData>
+												<node_id>dc05fb22-49e1-4ea5-8508-6ec110e25ff7</node_id>
+												<custom_name>playblast_maya1</custom_name>
+												<position>
+													<first>9.541019287e+02</first>
+													<second>6.709555054e+02</second>
+												</position>
+											</NodeSerializationData>
+											<node_type_id>
+												<type_name>playblast_maya</type_name>
+												<node_namespace></node_namespace>
+												<developer_id>0</developer_id>
+											</node_type_id>
+										</px>
+									</item>
+									<item>
+										<px class_id_reference="2" object_id="_14">
 											<NodeSerializationData>
 												<node_id>ff6ce6b3-054e-47a7-abb3-3dda6286fd00</node_id>
 												<custom_name>load_plugin_maya1</custom_name>
@@ -178,7 +212,7 @@
 										</px>
 									</item>
 									<item>
-										<px class_id="5" tracking_level="1" version="0" object_id="_13">
+										<px class_id="5" tracking_level="1" version="0" object_id="_15">
 											<NodeSerializationData>
 												<node_id>e446d433-cd8e-4ed2-83da-8883e2e679d2</node_id>
 												<custom_name></custom_name>
@@ -188,8 +222,8 @@
 												</position>
 											</NodeSerializationData>
 											<name>base_asset</name>
-											<type class_id="13" tracking_level="0" version="0">
-												<type_name>string</type_name>
+											<type class_id="16" tracking_level="0" version="0">
+												<type_name>path</type_name>
 												<type_namespace></type_namespace>
 												<developer_id>0</developer_id>
 												<list_dimension>0</list_dimension>
@@ -197,7 +231,7 @@
 										</px>
 									</item>
 									<item>
-										<px class_id_reference="5" object_id="_14">
+										<px class_id_reference="5" object_id="_16">
 											<NodeSerializationData>
 												<node_id>df05bba5-fe12-45f3-a7f0-c8b1427c9f94</node_id>
 												<custom_name></custom_name>
@@ -208,7 +242,7 @@
 											</NodeSerializationData>
 											<name>anim_files</name>
 											<type>
-												<type_name>string</type_name>
+												<type_name>path</type_name>
 												<type_namespace></type_namespace>
 												<developer_id>0</developer_id>
 												<list_dimension>0</list_dimension>
@@ -216,7 +250,7 @@
 										</px>
 									</item>
 									<item>
-										<px class_id_reference="5" object_id="_15">
+										<px class_id_reference="5" object_id="_17">
 											<NodeSerializationData>
 												<node_id>ed71777d-9310-4d61-b343-2bdab548bacd</node_id>
 												<custom_name></custom_name>
@@ -227,7 +261,7 @@
 											</NodeSerializationData>
 											<name>output_dir</name>
 											<type>
-												<type_name>string</type_name>
+												<type_name>path</type_name>
 												<type_namespace></type_namespace>
 												<developer_id>0</developer_id>
 												<list_dimension>0</list_dimension>
@@ -235,7 +269,7 @@
 										</px>
 									</item>
 									<item>
-										<px class_id="6" tracking_level="1" version="0" object_id="_16">
+										<px class_id="6" tracking_level="1" version="0" object_id="_18">
 											<NodeSerializationData>
 												<node_id>2c931765-1e23-4e78-9723-6410d1804de3</node_id>
 												<custom_name></custom_name>
@@ -246,7 +280,7 @@
 											</NodeSerializationData>
 											<name>playblasts</name>
 											<type>
-												<type_name>string</type_name>
+												<type_name>path</type_name>
 												<type_namespace></type_namespace>
 												<developer_id>0</developer_id>
 												<list_dimension>0</list_dimension>
@@ -254,10 +288,46 @@
 										</px>
 									</item>
 								</nodes>
-								<connections class_id="14" tracking_level="0" version="0">
+								<connections class_id="17" tracking_level="0" version="0">
 									<count>9</count>
 									<item_version>0</item_version>
-									<item class_id="15" tracking_level="0" version="0">
+									<item class_id="18" tracking_level="0" version="0">
+										<output_node_id>1ea49bab-7324-46fb-82be-e70b9bad15d1</output_node_id>
+										<output_plug_name>path</output_plug_name>
+										<input_node_id>dc05fb22-49e1-4ea5-8508-6ec110e25ff7</input_node_id>
+										<input_plug_name>output_file</input_plug_name>
+									</item>
+									<item>
+										<output_node_id>888c7b58-abb8-48a4-ba6f-0ebcd83456f6</output_node_id>
+										<output_plug_name>output</output_plug_name>
+										<input_node_id>1ea49bab-7324-46fb-82be-e70b9bad15d1</input_node_id>
+										<input_plug_name>basename</input_plug_name>
+									</item>
+									<item>
+										<output_node_id>9e883347-0802-41cb-8cc4-6c68d8ae21d0</output_node_id>
+										<output_plug_name>end_frame</output_plug_name>
+										<input_node_id>dc05fb22-49e1-4ea5-8508-6ec110e25ff7</input_node_id>
+										<input_plug_name>end_frame</input_plug_name>
+									</item>
+									<item>
+										<output_node_id>9e883347-0802-41cb-8cc4-6c68d8ae21d0</output_node_id>
+										<output_plug_name>namespace</output_plug_name>
+										<input_node_id>888c7b58-abb8-48a4-ba6f-0ebcd83456f6</input_node_id>
+										<input_plug_name>string</input_plug_name>
+									</item>
+									<item>
+										<output_node_id>9e883347-0802-41cb-8cc4-6c68d8ae21d0</output_node_id>
+										<output_plug_name>start_frame</output_plug_name>
+										<input_node_id>dc05fb22-49e1-4ea5-8508-6ec110e25ff7</input_node_id>
+										<input_plug_name>start_frame</input_plug_name>
+									</item>
+									<item>
+										<output_node_id>dc05fb22-49e1-4ea5-8508-6ec110e25ff7</output_node_id>
+										<output_plug_name>output_file</output_plug_name>
+										<input_node_id>2c931765-1e23-4e78-9723-6410d1804de3</input_node_id>
+										<input_plug_name>input</input_plug_name>
+									</item>
+									<item>
 										<output_node_id>df05bba5-fe12-45f3-a7f0-c8b1427c9f94</output_node_id>
 										<output_plug_name>output</output_plug_name>
 										<input_node_id>9e883347-0802-41cb-8cc4-6c68d8ae21d0</input_node_id>
@@ -270,58 +340,22 @@
 										<input_plug_name>filename</input_plug_name>
 									</item>
 									<item>
-										<output_node_id>1ea49bab-7324-46fb-82be-e70b9bad15d1</output_node_id>
-										<output_plug_name>path</output_plug_name>
-										<input_node_id>dc05fb22-49e1-4ea5-8508-6ec110e25ff7</input_node_id>
-										<input_plug_name>output_file</input_plug_name>
-									</item>
-									<item>
-										<output_node_id>9e883347-0802-41cb-8cc4-6c68d8ae21d0</output_node_id>
-										<output_plug_name>start_frame</output_plug_name>
-										<input_node_id>dc05fb22-49e1-4ea5-8508-6ec110e25ff7</input_node_id>
-										<input_plug_name>start_frame</input_plug_name>
-									</item>
-									<item>
-										<output_node_id>9e883347-0802-41cb-8cc4-6c68d8ae21d0</output_node_id>
-										<output_plug_name>end_frame</output_plug_name>
-										<input_node_id>dc05fb22-49e1-4ea5-8508-6ec110e25ff7</input_node_id>
-										<input_plug_name>end_frame</input_plug_name>
-									</item>
-									<item>
 										<output_node_id>ed71777d-9310-4d61-b343-2bdab548bacd</output_node_id>
 										<output_plug_name>output</output_plug_name>
 										<input_node_id>1ea49bab-7324-46fb-82be-e70b9bad15d1</input_node_id>
 										<input_plug_name>dirname</input_plug_name>
 									</item>
-									<item>
-										<output_node_id>888c7b58-abb8-48a4-ba6f-0ebcd83456f6</output_node_id>
-										<output_plug_name>output</output_plug_name>
-										<input_node_id>1ea49bab-7324-46fb-82be-e70b9bad15d1</input_node_id>
-										<input_plug_name>basename</input_plug_name>
-									</item>
-									<item>
-										<output_node_id>9e883347-0802-41cb-8cc4-6c68d8ae21d0</output_node_id>
-										<output_plug_name>namespace</output_plug_name>
-										<input_node_id>888c7b58-abb8-48a4-ba6f-0ebcd83456f6</input_node_id>
-										<input_plug_name>string</input_plug_name>
-									</item>
-									<item>
-										<output_node_id>dc05fb22-49e1-4ea5-8508-6ec110e25ff7</output_node_id>
-										<output_plug_name>output_file</output_plug_name>
-										<input_node_id>2c931765-1e23-4e78-9723-6410d1804de3</input_node_id>
-										<input_plug_name>input</input_plug_name>
-									</item>
 								</connections>
-								<dependencies class_id="16" tracking_level="0" version="0">
+								<dependencies class_id="19" tracking_level="0" version="0">
 									<count>5</count>
 									<item_version>0</item_version>
-									<item class_id="17" tracking_level="0" version="0">
+									<item class_id="20" tracking_level="0" version="0">
 										<upstream_node_id>02bed38e-5d07-4c97-8ebb-3ec0bef2c6cc</upstream_node_id>
 										<downstream_node_id>9e883347-0802-41cb-8cc4-6c68d8ae21d0</downstream_node_id>
 									</item>
 									<item>
-										<upstream_node_id>ff6ce6b3-054e-47a7-abb3-3dda6286fd00</upstream_node_id>
-										<downstream_node_id>02bed38e-5d07-4c97-8ebb-3ec0bef2c6cc</downstream_node_id>
+										<upstream_node_id>4c38d223-e830-481f-8dd8-15ca7f79ae2f</upstream_node_id>
+										<downstream_node_id>ff6ce6b3-054e-47a7-abb3-3dda6286fd00</downstream_node_id>
 									</item>
 									<item>
 										<upstream_node_id>5ce33254-de92-408e-ab66-4c28abd02f0d</upstream_node_id>
@@ -332,40 +366,38 @@
 										<downstream_node_id>5ce33254-de92-408e-ab66-4c28abd02f0d</downstream_node_id>
 									</item>
 									<item>
-										<upstream_node_id>4c38d223-e830-481f-8dd8-15ca7f79ae2f</upstream_node_id>
-										<downstream_node_id>ff6ce6b3-054e-47a7-abb3-3dda6286fd00</downstream_node_id>
+										<upstream_node_id>ff6ce6b3-054e-47a7-abb3-3dda6286fd00</upstream_node_id>
+										<downstream_node_id>02bed38e-5d07-4c97-8ebb-3ec0bef2c6cc</downstream_node_id>
 									</item>
 								</dependencies>
-								<user_inputs class_id="18" tracking_level="0" version="0">
-									<count>4</count>
-									<item_version>0</item_version>
-									<item class_id="19" tracking_level="0" version="0">
-										<node_id>9e883347-0802-41cb-8cc4-6c68d8ae21d0</node_id>
-										<input_name>anim_file</input_name>
-										<value>C:/projects/iograft/anim/Jump.fbx</value>
+								<user_inputs class_id="21" tracking_level="0" version="0">
+									<count>2</count>
+									<item_version>1</item_version>
+									<item class_id="22" tracking_level="0" version="1">
+										<px class_id="8" tracking_level="1" version="0" object_id="_19">
+											<InputData class_id="23" tracking_level="0" version="0">
+												<node_id>888c7b58-abb8-48a4-ba6f-0ebcd83456f6</node_id>
+												<input_name>string2</input_name>
+											</InputData>
+											<value>.avi</value>
+										</px>
 									</item>
 									<item>
-										<node_id>02bed38e-5d07-4c97-8ebb-3ec0bef2c6cc</node_id>
-										<input_name>filename</input_name>
-										<value>C:/projects/iograft/models/characters/xbot.fbx</value>
-									</item>
-									<item>
-										<node_id>888c7b58-abb8-48a4-ba6f-0ebcd83456f6</node_id>
-										<input_name>string2</input_name>
-										<value>.avi</value>
-									</item>
-									<item>
-										<node_id>ff6ce6b3-054e-47a7-abb3-3dda6286fd00</node_id>
-										<input_name>plugin</input_name>
-										<value>fbxmaya.mll</value>
+										<px class_id_reference="8" object_id="_20">
+											<InputData>
+												<node_id>ff6ce6b3-054e-47a7-abb3-3dda6286fd00</node_id>
+												<input_name>plugin</input_name>
+											</InputData>
+											<value>fbxmaya.mll</value>
+										</px>
 									</item>
 								</user_inputs>
-								<notes class_id="20" tracking_level="0" version="0">
+								<notes class_id="24" tracking_level="0" version="0">
 									<count>1</count>
 									<item_version>0</item_version>
-									<item class_id="21" tracking_level="0" version="0">
+									<item class_id="25" tracking_level="0" version="0">
 										<id>ea4d7625-626f-492b-a8a8-997c7cc26bb4</id>
-										<text> When the new scene is created in Maya, the camera resets to focusing at the origin. 
+										<text> When the new scene is created in Maya, the camera resets to focusing at the origin.
 
 This ensures that the asset is correctly framed prior to generating  the playblast.</text>
 										<color>green</color>
@@ -379,10 +411,10 @@ This ensures that the asset is correctly framed prior to generating  the playbla
 										</position>
 									</item>
 								</notes>
-								<groups class_id="22" tracking_level="0" version="0">
+								<groups class_id="26" tracking_level="0" version="0">
 									<count>1</count>
 									<item_version>0</item_version>
-									<item class_id="23" tracking_level="0" version="0">
+									<item class_id="27" tracking_level="0" version="0">
 										<id>207bee86-7732-4667-bfd7-842246268f9b</id>
 										<title>Build Output Movie Filename</title>
 										<dimensions>
@@ -393,7 +425,7 @@ This ensures that the asset is correctly framed prior to generating  the playbla
 											<first>2.383828278e+02</first>
 											<second>-1.000000000e+02</second>
 										</position>
-										<members class_id="24" tracking_level="0" version="0">
+										<members class_id="28" tracking_level="0" version="0">
 											<count>3</count>
 											<item_version>0</item_version>
 											<item>ed71777d-9310-4d61-b343-2bdab548bacd</item>
@@ -402,10 +434,10 @@ This ensures that the asset is correctly framed prior to generating  the playbla
 										</members>
 									</item>
 								</groups>
-								<executor class_id="25" tracking_level="0" version="0">
+								<executor class_id="29" tracking_level="0" version="0">
 									<authored_executor></authored_executor>
 								</executor>
-								<environment class_id="26" tracking_level="0" version="0">
+								<environment class_id="30" tracking_level="0" version="0">
 									<named_environment></named_environment>
 								</environment>
 							</px>
@@ -416,58 +448,24 @@ This ensures that the asset is correctly framed prior to generating  the playbla
 				</px>
 			</item>
 			<item>
-				<px class_id_reference="2" object_id="_17">
+				<px class_id_reference="2" object_id="_21">
 					<NodeSerializationData>
-						<node_id>0204b04d-8fb2-44f4-835b-28dce6b28792</node_id>
-						<custom_name>set_asset_path</custom_name>
+						<node_id>3c10e04e-8493-4d59-bb6a-914ee7e3ba74</node_id>
+						<custom_name>list_directory1</custom_name>
 						<position>
-							<first>-1.809071045e+02</first>
-							<second>-4.851492310e+02</second>
+							<first>-5.778668213e+02</first>
+							<second>-3.226046371e+01</second>
 						</position>
 					</NodeSerializationData>
 					<node_type_id>
-						<type_name>join_path</type_name>
+						<type_name>list_directory</type_name>
 						<node_namespace></node_namespace>
 						<developer_id>0</developer_id>
 					</node_type_id>
 				</px>
 			</item>
 			<item>
-				<px class_id_reference="2" object_id="_18">
-					<NodeSerializationData>
-						<node_id>08a7a19e-5090-45a5-bb7d-697e54a79f9f</node_id>
-						<custom_name>filter_files1</custom_name>
-						<position>
-							<first>-2.916553345e+02</first>
-							<second>-5.097235489e+01</second>
-						</position>
-					</NodeSerializationData>
-					<node_type_id>
-						<type_name>filter_files</type_name>
-						<node_namespace></node_namespace>
-						<developer_id>0</developer_id>
-					</node_type_id>
-				</px>
-			</item>
-			<item>
-				<px class_id_reference="2" object_id="_19">
-					<NodeSerializationData>
-						<node_id>a1c645fd-dc47-469b-9630-465d3a2100c8</node_id>
-						<custom_name>set_anim_directory</custom_name>
-						<position>
-							<first>-1.014738892e+03</first>
-							<second>1.371959686e+02</second>
-						</position>
-					</NodeSerializationData>
-					<node_type_id>
-						<type_name>join_path</type_name>
-						<node_namespace></node_namespace>
-						<developer_id>0</developer_id>
-					</node_type_id>
-				</px>
-			</item>
-			<item>
-				<px class_id_reference="2" object_id="_20">
+				<px class_id_reference="2" object_id="_22">
 					<NodeSerializationData>
 						<node_id>538d469d-cdca-4d64-a179-09ecf10dc22d</node_id>
 						<custom_name>join_path1</custom_name>
@@ -484,24 +482,24 @@ This ensures that the asset is correctly framed prior to generating  the playbla
 				</px>
 			</item>
 			<item>
-				<px class_id_reference="2" object_id="_21">
+				<px class_id_reference="2" object_id="_23">
 					<NodeSerializationData>
-						<node_id>199b3e9e-bb01-4aab-ba18-faf069e0f339</node_id>
-						<custom_name>create_directory1</custom_name>
+						<node_id>a1c645fd-dc47-469b-9630-465d3a2100c8</node_id>
+						<custom_name>set_anim_directory</custom_name>
 						<position>
-							<first>-2.665894775e+02</first>
-							<second>3.418260803e+02</second>
+							<first>-1.014738892e+03</first>
+							<second>1.371959686e+02</second>
 						</position>
 					</NodeSerializationData>
 					<node_type_id>
-						<type_name>create_directory</type_name>
+						<type_name>join_path</type_name>
 						<node_namespace></node_namespace>
 						<developer_id>0</developer_id>
 					</node_type_id>
 				</px>
 			</item>
 			<item>
-				<px class_id_reference="2" object_id="_22">
+				<px class_id_reference="2" object_id="_24">
 					<NodeSerializationData>
 						<node_id>d62a6cf8-23d4-4db4-965f-d5fbf3c2e63c</node_id>
 						<custom_name>set_assets_directory</custom_name>
@@ -518,7 +516,7 @@ This ensures that the asset is correctly framed prior to generating  the playbla
 				</px>
 			</item>
 			<item>
-				<px class_id_reference="5" object_id="_23">
+				<px class_id_reference="5" object_id="_25">
 					<NodeSerializationData>
 						<node_id>86aa9eaa-276b-4af8-a50c-bb8a24e633cb</node_id>
 						<custom_name></custom_name>
@@ -537,7 +535,7 @@ This ensures that the asset is correctly framed prior to generating  the playbla
 				</px>
 			</item>
 			<item>
-				<px class_id_reference="5" object_id="_24">
+				<px class_id_reference="5" object_id="_26">
 					<NodeSerializationData>
 						<node_id>e6ccf37c-a936-4740-b22e-329cdd5af339</node_id>
 						<custom_name></custom_name>
@@ -548,7 +546,7 @@ This ensures that the asset is correctly framed prior to generating  the playbla
 					</NodeSerializationData>
 					<name>demo_directory</name>
 					<type>
-						<type_name>string</type_name>
+						<type_name>path</type_name>
 						<type_namespace></type_namespace>
 						<developer_id>0</developer_id>
 						<list_dimension>0</list_dimension>
@@ -560,22 +558,10 @@ This ensures that the asset is correctly framed prior to generating  the playbla
 			<count>11</count>
 			<item_version>0</item_version>
 			<item>
-				<output_node_id>a1c645fd-dc47-469b-9630-465d3a2100c8</output_node_id>
-				<output_plug_name>path</output_plug_name>
-				<input_node_id>3c10e04e-8493-4d59-bb6a-914ee7e3ba74</input_node_id>
-				<input_plug_name>directory</input_plug_name>
-			</item>
-			<item>
 				<output_node_id>0204b04d-8fb2-44f4-835b-28dce6b28792</output_node_id>
 				<output_plug_name>path</output_plug_name>
 				<input_node_id>1aa5dac9-3c93-4ce7-9b45-a378286838cc</input_node_id>
 				<input_plug_name>base_asset</input_plug_name>
-			</item>
-			<item>
-				<output_node_id>199b3e9e-bb01-4aab-ba18-faf069e0f339</output_node_id>
-				<output_plug_name>directory</output_plug_name>
-				<input_node_id>1aa5dac9-3c93-4ce7-9b45-a378286838cc</input_node_id>
-				<input_plug_name>output_dir</input_plug_name>
 			</item>
 			<item>
 				<output_node_id>08a7a19e-5090-45a5-bb7d-697e54a79f9f</output_node_id>
@@ -584,16 +570,10 @@ This ensures that the asset is correctly framed prior to generating  the playbla
 				<input_plug_name>anim_files</input_plug_name>
 			</item>
 			<item>
-				<output_node_id>d62a6cf8-23d4-4db4-965f-d5fbf3c2e63c</output_node_id>
-				<output_plug_name>path</output_plug_name>
-				<input_node_id>0204b04d-8fb2-44f4-835b-28dce6b28792</input_node_id>
-				<input_plug_name>dirname</input_plug_name>
-			</item>
-			<item>
-				<output_node_id>86aa9eaa-276b-4af8-a50c-bb8a24e633cb</output_node_id>
-				<output_plug_name>output</output_plug_name>
-				<input_node_id>0204b04d-8fb2-44f4-835b-28dce6b28792</input_node_id>
-				<input_plug_name>basename</input_plug_name>
+				<output_node_id>199b3e9e-bb01-4aab-ba18-faf069e0f339</output_node_id>
+				<output_plug_name>directory</output_plug_name>
+				<input_node_id>1aa5dac9-3c93-4ce7-9b45-a378286838cc</input_node_id>
+				<input_plug_name>output_dir</input_plug_name>
 			</item>
 			<item>
 				<output_node_id>3c10e04e-8493-4d59-bb6a-914ee7e3ba74</output_node_id>
@@ -602,10 +582,22 @@ This ensures that the asset is correctly framed prior to generating  the playbla
 				<input_plug_name>files</input_plug_name>
 			</item>
 			<item>
-				<output_node_id>e6ccf37c-a936-4740-b22e-329cdd5af339</output_node_id>
+				<output_node_id>538d469d-cdca-4d64-a179-09ecf10dc22d</output_node_id>
+				<output_plug_name>path</output_plug_name>
+				<input_node_id>199b3e9e-bb01-4aab-ba18-faf069e0f339</input_node_id>
+				<input_plug_name>directory</input_plug_name>
+			</item>
+			<item>
+				<output_node_id>86aa9eaa-276b-4af8-a50c-bb8a24e633cb</output_node_id>
 				<output_plug_name>output</output_plug_name>
-				<input_node_id>a1c645fd-dc47-469b-9630-465d3a2100c8</input_node_id>
-				<input_plug_name>dirname</input_plug_name>
+				<input_node_id>0204b04d-8fb2-44f4-835b-28dce6b28792</input_node_id>
+				<input_plug_name>basename</input_plug_name>
+			</item>
+			<item>
+				<output_node_id>a1c645fd-dc47-469b-9630-465d3a2100c8</output_node_id>
+				<output_plug_name>path</output_plug_name>
+				<input_node_id>3c10e04e-8493-4d59-bb6a-914ee7e3ba74</input_node_id>
+				<input_plug_name>directory</input_plug_name>
 			</item>
 			<item>
 				<output_node_id>a1c645fd-dc47-469b-9630-465d3a2100c8</output_node_id>
@@ -614,10 +606,16 @@ This ensures that the asset is correctly framed prior to generating  the playbla
 				<input_plug_name>dirname</input_plug_name>
 			</item>
 			<item>
-				<output_node_id>538d469d-cdca-4d64-a179-09ecf10dc22d</output_node_id>
+				<output_node_id>d62a6cf8-23d4-4db4-965f-d5fbf3c2e63c</output_node_id>
 				<output_plug_name>path</output_plug_name>
-				<input_node_id>199b3e9e-bb01-4aab-ba18-faf069e0f339</input_node_id>
-				<input_plug_name>directory</input_plug_name>
+				<input_node_id>0204b04d-8fb2-44f4-835b-28dce6b28792</input_node_id>
+				<input_plug_name>dirname</input_plug_name>
+			</item>
+			<item>
+				<output_node_id>e6ccf37c-a936-4740-b22e-329cdd5af339</output_node_id>
+				<output_plug_name>output</output_plug_name>
+				<input_node_id>a1c645fd-dc47-469b-9630-465d3a2100c8</input_node_id>
+				<input_plug_name>dirname</input_plug_name>
 			</item>
 			<item>
 				<output_node_id>e6ccf37c-a936-4740-b22e-329cdd5af339</output_node_id>
@@ -632,59 +630,85 @@ This ensures that the asset is correctly framed prior to generating  the playbla
 		</dependencies>
 		<user_inputs>
 			<count>7</count>
-			<item_version>0</item_version>
+			<item_version>1</item_version>
 			<item>
-				<node_id>3c10e04e-8493-4d59-bb6a-914ee7e3ba74</node_id>
-				<input_name>full_paths</input_name>
-				<value>true</value>
+				<px class_id_reference="8" object_id="_27">
+					<InputData>
+						<node_id>08a7a19e-5090-45a5-bb7d-697e54a79f9f</node_id>
+						<input_name>regex</input_name>
+					</InputData>
+					<value>*.fbx</value>
+				</px>
 			</item>
 			<item>
-				<node_id>08a7a19e-5090-45a5-bb7d-697e54a79f9f</node_id>
-				<input_name>regex</input_name>
-				<value>*.fbx</value>
+				<px class_id_reference="8" object_id="_28">
+					<InputData>
+						<node_id>199b3e9e-bb01-4aab-ba18-faf069e0f339</node_id>
+						<input_name>fail_if_exists</input_name>
+					</InputData>
+					<value>False</value>
+				</px>
 			</item>
 			<item>
-				<node_id>a1c645fd-dc47-469b-9630-465d3a2100c8</node_id>
-				<input_name>basename</input_name>
-				<value>anim</value>
+				<px class_id_reference="8" object_id="_29">
+					<InputData>
+						<node_id>3c10e04e-8493-4d59-bb6a-914ee7e3ba74</node_id>
+						<input_name>full_paths</input_name>
+					</InputData>
+					<value>True</value>
+				</px>
 			</item>
 			<item>
-				<node_id>538d469d-cdca-4d64-a179-09ecf10dc22d</node_id>
-				<input_name>basename</input_name>
-				<value>playblast</value>
+				<px class_id_reference="8" object_id="_30">
+					<InputData>
+						<node_id>538d469d-cdca-4d64-a179-09ecf10dc22d</node_id>
+						<input_name>basename</input_name>
+					</InputData>
+					<value>playblast</value>
+				</px>
 			</item>
 			<item>
-				<node_id>199b3e9e-bb01-4aab-ba18-faf069e0f339</node_id>
-				<input_name>fail_if_exists</input_name>
-				<value>false</value>
+				<px class_id_reference="8" object_id="_31">
+					<InputData>
+						<node_id>a1c645fd-dc47-469b-9630-465d3a2100c8</node_id>
+						<input_name>basename</input_name>
+					</InputData>
+					<value>anim</value>
+				</px>
 			</item>
 			<item>
-				<node_id>d62a6cf8-23d4-4db4-965f-d5fbf3c2e63c</node_id>
-				<input_name>basename</input_name>
-				<value>assets</value>
+				<px class_id_reference="8" object_id="_32">
+					<InputData>
+						<node_id>d62a6cf8-23d4-4db4-965f-d5fbf3c2e63c</node_id>
+						<input_name>basename</input_name>
+					</InputData>
+					<value>assets</value>
+				</px>
 			</item>
 			<item>
-				<node_id>00000000-0000-0000-0000-000000000000</node_id>
-				<input_name>asset_fbx</input_name>
-				<value>xbot.fbx</value>
+				<px class_id_reference="8" object_id="_33">
+					<InputData>
+						<node_id>00000000-0000-0000-0000-000000000000</node_id>
+						<input_name>asset_fbx</input_name>
+					</InputData>
+					<value>xbot.fbx</value>
+				</px>
 			</item>
 		</user_inputs>
 		<notes>
 			<count>3</count>
 			<item_version>0</item_version>
 			<item>
-				<id>3d88f6a7-81c4-4690-82bc-47b3fa85cce4</id>
-				<text>The &apos;asset_fbx&apos; file is the base asset without any animation applied.
-
-The animation FBX files will be applied onto this asset.</text>
+				<id>07d56d4e-b3a6-4593-abf1-8eaa90502751</id>
+				<text>The playblast_anim node is a loop node containing a subgraph for rendering fbx animation playblasts.</text>
 				<color>green</color>
 				<dimensions>
 					<first>2.000000000e+02</first>
-					<second>1.578550873e+02</second>
+					<second>1.500000000e+02</second>
 				</dimensions>
 				<position>
-					<first>-8.263738403e+02</first>
-					<second>-3.639259338e+02</second>
+					<first>6.707970581e+02</first>
+					<second>3.359086227e+01</second>
 				</position>
 			</item>
 			<item>
@@ -703,40 +727,24 @@ The animation FBX files will be applied onto this asset.</text>
 				</position>
 			</item>
 			<item>
-				<id>07d56d4e-b3a6-4593-abf1-8eaa90502751</id>
-				<text>The playblast_anim node is a loop node containing a subgraph for rendering fbx animation playblasts.</text>
+				<id>3d88f6a7-81c4-4690-82bc-47b3fa85cce4</id>
+				<text>The &apos;asset_fbx&apos; file is the base asset without any animation applied.
+
+The animation FBX files will be applied onto this asset.</text>
 				<color>green</color>
 				<dimensions>
 					<first>2.000000000e+02</first>
-					<second>1.500000000e+02</second>
+					<second>1.578550873e+02</second>
 				</dimensions>
 				<position>
-					<first>6.707970581e+02</first>
-					<second>3.359086227e+01</second>
+					<first>-8.263738403e+02</first>
+					<second>-3.639259338e+02</second>
 				</position>
 			</item>
 		</notes>
 		<groups>
 			<count>2</count>
 			<item_version>0</item_version>
-			<item>
-				<id>bd5749be-04ef-41fb-8174-784ccd530370</id>
-				<title>Generate Output Directory</title>
-				<dimensions>
-					<first>6.592088623e+02</first>
-					<second>3.318580627e+02</second>
-				</dimensions>
-				<position>
-					<first>-6.474611206e+02</first>
-					<second>2.634716187e+02</second>
-				</position>
-				<members>
-					<count>2</count>
-					<item_version>0</item_version>
-					<item>199b3e9e-bb01-4aab-ba18-faf069e0f339</item>
-					<item>538d469d-cdca-4d64-a179-09ecf10dc22d</item>
-				</members>
-			</item>
 			<item>
 				<id>a7810268-63e4-40cc-92b5-d5f61c94f6bd</id>
 				<title>Get FBX Animation Files</title>
@@ -755,6 +763,24 @@ The animation FBX files will be applied onto this asset.</text>
 					<item>3c10e04e-8493-4d59-bb6a-914ee7e3ba74</item>
 				</members>
 			</item>
+			<item>
+				<id>bd5749be-04ef-41fb-8174-784ccd530370</id>
+				<title>Generate Output Directory</title>
+				<dimensions>
+					<first>6.592088623e+02</first>
+					<second>3.318580627e+02</second>
+				</dimensions>
+				<position>
+					<first>-6.474611206e+02</first>
+					<second>2.634716187e+02</second>
+				</position>
+				<members>
+					<count>2</count>
+					<item_version>0</item_version>
+					<item>199b3e9e-bb01-4aab-ba18-faf069e0f339</item>
+					<item>538d469d-cdca-4d64-a179-09ecf10dc22d</item>
+				</members>
+			</item>
 		</groups>
 		<executor>
 			<authored_executor></authored_executor>
@@ -765,4 +791,3 @@ The animation FBX files will be applied onto this asset.</text>
 	</graph>
 </contents>
 </boost_serialization>
-
