@@ -16,6 +16,7 @@ class FitToView(iograft.Node):
     @classmethod
     def GetDefinition(cls):
         node = iograft.NodeDefinition("fit_to_view")
+        node.SetMenuPath("Maya")
         node.AddInput(cls.camera)
         return node
 

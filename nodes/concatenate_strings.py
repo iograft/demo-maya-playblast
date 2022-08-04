@@ -15,6 +15,7 @@ class ConcatenateStrings(iograft.Node):
     @classmethod
     def GetDefinition(cls):
         node = iograft.NodeDefinition("concatenate_strings")
+        node.SetMenuPath("General/String")
         node.AddInput(cls.string)
         node.AddInput(cls.string2)
         node.AddOutput(cls.output)

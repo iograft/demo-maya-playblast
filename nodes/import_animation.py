@@ -26,6 +26,7 @@ class ImportFBXAnimation(iograft.Node):
     @classmethod
     def GetDefinition(cls):
         node = iograft.NodeDefinition("import_fbx_anim")
+        node.SetMenuPath("Maya")
         node.AddInput(cls.anim_file)
         node.AddOutput(cls.namespace)
         node.AddOutput(cls.start_frame)

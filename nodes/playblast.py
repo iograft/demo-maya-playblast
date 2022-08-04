@@ -23,6 +23,7 @@ class Playblast(iograft.Node):
     @classmethod
     def GetDefinition(cls):
         node = iograft.NodeDefinition("playblast_maya")
+        node.SetMenuPath("Maya")
         node.AddInput(cls.filename)
         node.AddInput(cls.start_frame)
         node.AddInput(cls.end_frame)

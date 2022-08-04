@@ -16,6 +16,7 @@ class LoadMayaPlugin(iograft.Node):
     @classmethod
     def GetDefinition(cls):
         node = iograft.NodeDefinition("load_plugin_maya")
+        node.SetMenuPath("Maya")
         node.AddInput(cls.plugin_name)
         return node
 
