@@ -138,7 +138,7 @@
 											</NodeSerializationData>
 											<node_type_id>
 												<type_name>fit_to_view</type_name>
-												<node_namespace></node_namespace>
+												<node_namespace>maya</node_namespace>
 												<developer_id>0</developer_id>
 											</node_type_id>
 										</px>
@@ -198,15 +198,15 @@
 										<px class_id_reference="2" object_id="_14">
 											<NodeSerializationData>
 												<node_id>ff6ce6b3-054e-47a7-abb3-3dda6286fd00</node_id>
-												<custom_name>load_plugin_maya1</custom_name>
+												<custom_name>load_plugin1</custom_name>
 												<position>
 													<first>-1.675445557e+02</first>
 													<second>-1.945841522e+02</second>
 												</position>
 											</NodeSerializationData>
 											<node_type_id>
-												<type_name>load_plugin_maya</type_name>
-												<node_namespace></node_namespace>
+												<type_name>load_plugin</type_name>
+												<node_namespace>maya</node_namespace>
 												<developer_id>0</developer_id>
 											</node_type_id>
 										</px>
